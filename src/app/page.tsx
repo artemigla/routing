@@ -1,8 +1,8 @@
-import './global.scss';
-export default function Home() {
-  return (
-    <div>
-      <h3>Home</h3>
-    </div>
-  );
-}
+// import './global.scss';
+// export default function Home() {
+//   return (
+//     <div>
+//       <h3>Home</h3>
+//     </div>
+//   );
+// }
