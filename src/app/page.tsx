@@ -23,7 +23,7 @@ export default function Home() {
   }, [post])
 
   return (
-    <div style={{ border: "1px solid black", width: "50%", margin: "auto" }}>
+    <div style={{ width: "50%", margin: "auto" }}>
       {post.map(({ id, title }) => (
         <Link key={id} href={{ pathname: `/pages/${id}` }}>
           <ul style={{ display: "flex", justifyContent: "left", listStyleType: "none" }}>
