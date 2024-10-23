@@ -1,6 +1,9 @@
 export interface ITypesPost {
-    userId?: number,
-    id: number,
+    id: string | number,
     title: string,
     body: string
 }
+
+export interface IErrorType {
+    message: string
+  }
